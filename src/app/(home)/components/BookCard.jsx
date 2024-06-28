@@ -4,20 +4,20 @@ import React from "react";
 
 const BookCard = ({ book }) => {
   return (
-    <div className="flex gap-5 border p-5 shadow-md rounded">
-      <div className="relative h-15 w-32">
+    <div className="flex gap-3 border p-5 shadow-md rounded">
+      <div className="relative h-12 w-34">
         <Image
           src={book.cover}
           alt={book.title}
           width={0}
           height={0}
-          sizes="10vw"
-          style={{ width: "auto", height: "9rem" }}
+          sizes="100vw"
+          style={{ width: "auto", height: "8rem" }}
           className="rounded-md"
         />
       </div>
       <div>
-        <h2 className="line-clamp-3 text-l font-bold text-primary-600 text-balance">
+        <h2 className="line-clamp-2 text-l font-bold text-primary-600">
           {book.title}
         </h2>
         <p className="font-italic text-primary-900 mt-1">{book.author.name}</p>
