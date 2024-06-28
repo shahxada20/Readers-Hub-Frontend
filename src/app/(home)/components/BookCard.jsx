@@ -5,7 +5,7 @@ import React from "react";
 const BookCard = ({ book }) => {
   return (
     <div className="flex gap-3 border p-5 shadow-md rounded">
-      <div className="relative h-12 w-34">
+      <div className="relative w-34">
         <Image
           src={book.cover}
           alt={book.title}
