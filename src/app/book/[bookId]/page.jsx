@@ -44,7 +44,7 @@ const SingleBookPage = async ({ params }) => {
       </div>
       <div className="flex justify-end">
         <Image
-          src={book.coverImage}
+          src={book.cover}
           alt={book.title}
           className="rounded-md border"
           height={0}
