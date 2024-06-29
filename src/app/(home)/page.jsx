@@ -1,7 +1,7 @@
-import Banner from "@/app/(home)/components/Banner"
-import BookList from "./components/BookList"
-import { Suspense } from "react"
-import Loading from "@/components/Loading"
+import Banner from "@/app/(home)/components/Banner";
+import BookList from "./components/BookList";
+import { Suspense } from "react";
+import Loading from "@/components/Loading";
 
 export default async function Home() {
   return (
@@ -11,5 +11,5 @@ export default async function Home() {
         <BookList />
       </Suspense>
     </>
-  )
+  );
 }

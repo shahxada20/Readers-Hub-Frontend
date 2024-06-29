@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import DownloadButton from "./components/DownloadButton";
+import ReadButton from "./components/ReadButton";
 
 const SingleBookPage = async ({ params }) => {
   console.log("params", params);
@@ -11,7 +11,7 @@ const SingleBookPage = async ({ params }) => {
       {
         next: {
           revalidate: 3600,
-        },
+        }
       }
     );
     console.log("API Response Status:", response.status);
@@ -39,8 +39,8 @@ const SingleBookPage = async ({ params }) => {
         <span className="font-semibold">
           by {book.author ? book.author.name : "Unknown Author"}
         </span>
-        <p className="mt-5 text-lg leading-8">{book.description}</p>
-        <DownloadButton fileLink={book.file} />
+        <p className="mt-5 text-l leading-7">{book.description ? book.description : "No description available."}</p>
+        <ReadButton fileLink={book.file} />
       </div>
       <div className="flex justify-end">
         <Image

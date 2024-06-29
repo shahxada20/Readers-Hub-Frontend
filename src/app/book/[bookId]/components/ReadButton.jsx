@@ -1,10 +1,10 @@
-"use client"
-import React from "react"
+"use client";
+import React from "react";
 
-const DownloadButton = ({ fileLink }) => {
+const ReadButton = ({ fileLink }) => {
   const handleDownload = () => {
-    window.open(fileLink, "_blank")
-  }
+    window.open(fileLink, "_blank");
+  };
 
   return (
     <button
@@ -13,7 +13,7 @@ const DownloadButton = ({ fileLink }) => {
     >
       Download the book
     </button>
-  )
-}
+  );
+};
 
-export default DownloadButton
+export default ReadButton;

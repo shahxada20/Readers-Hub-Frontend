@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Hexagon />
               </div>
               <span className="text-xl font-bold uppercase tracking-tight text-primary-500 ">
-              Reader&#39;s Hub
+                Reader&#39;s Hub
               </span>
             </div>
           </Link>
