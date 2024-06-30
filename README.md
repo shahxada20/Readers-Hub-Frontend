@@ -1,8 +1,7 @@
 # Reader's Hub
 ## _Connect, Discover, and Share Your Favourite Reads..._
 
-Reader's Hub is a web application built using the MERN stack, designed to allow users to browse, and read their favorite books. This application offers a seamless user experience with a simple and intuitive interface.
-
+Reader's Hub is a web application built using the MERN stack, designed to allow users to browse, and read their favorite books. This application offers a seamless user experience with a simple and intuitive interface. [Backend Code](https://github.com/shahxada20/Readers-Hub-Backend)
 ## User Interface
 ![Screenshot_1](https://github.com/shahxada20/Readers-Hub-Frontend/blob/593a38c4479fd6c95448fb4c8eaf73b38322e7d4/public/Screenshot_Book_List.jpeg)
 ![Screenshot_1](https://github.com/shahxada20/Readers-Hub-Frontend/blob/593a38c4479fd6c95448fb4c8eaf73b38322e7d4/public/Screenshot_Book_Details.jpeg)
